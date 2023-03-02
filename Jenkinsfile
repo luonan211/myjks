@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	parameters{
-		booleanParam(defaultVaule:true, description:"test parameters", name: "userFlag")
+		booleanParam(defaultValue:true, description:"test parameters", name: "userFlag")
 	}
 	stages{
 		stage("Build"){
